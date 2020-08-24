@@ -1,0 +1,63 @@
+html,
+body {
+    margin: 0;
+    color: #5f6368;
+    font-family: Arial, sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 0.8rem;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner__left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__element {
+    margin: 0.8rem 0.8rem;
+}
+
+.banner--footer {
+    background-color: #f2f2f2;
+}
+
+.apps-icon {
+    width: 20px;
+}
+
+.logo {
+    width: 250px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
